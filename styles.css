@@ -1,0 +1,102 @@
+/**CSS Styles**/
+
+*{
+padding:0;
+margin:0;
+}
+
+body{
+background-image: url(images/back.jpg);
+background-attachment:fixed;
+background-size:100%;
+}
+
+#wrapper{
+max-width:940px;
+margin:10px auto;
+background:#fff;
+overflow:hidden;
+padding:20px;
+background:rgba(255, 255, 255, 0.9);
+}
+
+header{
+height:200px;
+padding-bottom:20px;
+background:rgba(218,112,214, 0.1);
+}
+
+header img{
+margin:0 auto;
+}
+
+nav{
+height:50px;
+max-width:100%;
+line-height:30px;
+background:rgb(80, 46, 169, 0.7);
+border:2px solid darkgrey;
+}
+
+
+main{
+width:100%;
+float:left;
+padding-bottom:10px;
+overflow:hidden;
+}
+
+footer{
+height:50px;
+line-height:50px;
+background:rgb(165,148,211, 0.7);
+clear:both;
+border:2px solid darkgrey;
+}
+
+footer a{
+color:darkblue; }
+
+footer ul{
+padding-left:24%;
+}
+
+footer li{
+float:left;
+list-style-type:none;
+margin-right:50px;
+}
+
+img{
+max-width:100;
+display:block;
+}
+
+form{
+    padding-left: 50px;
+}
+
+
+
+
+/**++++++++++Typography++++++++++**/
+
+
+h1, h2, h3 {
+margin:5px;
+font-family:"Times New Roman";
+}
+
+h1{
+padding-left:330px;
+}
+
+h1{
+margin-bottom:10px;
+}
+
+p{
+line-height:1.2; 
+padding-bottom:20px;
+font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
